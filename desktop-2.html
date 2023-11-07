@@ -126,7 +126,11 @@
             type="email"
             width="{}"
           />
-          <from action="https://formspree.io/f/xvojyvne" method="POST">
+          <form
+  action="https://formspree.io/f/xvojyvne"
+  method="POST"
+  enctype="multipart/form-data"
+>
           <input class="cta-child4" name="name" type="number" />
 
           <div class="full-name1">Full Name</div>
@@ -135,7 +139,7 @@
         </div>
       </div>
     </div>
-</from>
+    
     <script>
       var frameButton = document.getElementById("frameButton");
       if (frameButton) {
